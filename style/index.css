@@ -1,0 +1,193 @@
+﻿*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:url(../images/timg.jpg ) fixed;
+	font-family:"微软雅黑";
+}
+#nav{
+	width:500px;
+	height:50px;
+	margin:0 auto;
+		position:relative;
+		background:#c0c0c0 ;
+		border-radius:10px;
+		border:2px solid #808080;
+}
+
+ #nav ul{
+	 
+	width:400px;
+	height:50px;
+position:absolute;
+
+}
+#nav li{
+	width:100px;
+	height:50px;
+	float:left;
+	text-align:center;
+	list-style-type:none;
+	line-height:50px;
+	cursor:pointer;
+}
+#sh{
+	font-weight:bolder;
+	color:#87ceeb;
+	font-size:16px;
+	left:0;
+    font-family:"微软雅黑";
+}
+ #hua{
+	 width:100px;
+	 height:35px;
+	 overflow:hidden;
+	 z-index:3;
+	 position:absolute;
+	 left:50px;
+	top:6.5px;
+	 background:#6a5acd;
+	 border-radius:15px;
+	 box-shadow:3px 3px 3px  #483d8b;
+ }
+ #hua li{
+	
+	 text-align:center;
+	  line-height:35px;
+ }
+ #kon{
+	z-index:4; 
+	left:50px;
+ }
+ #di{
+	 z-index:1;
+	 left:50px;
+	 
+ }
+ 
+ #tou{
+	 width:100px;
+	 display:block;
+	 margin:50px auto;
+ }
+ #tou:hover{
+	 box-shadow:0 0 10px  #00FFFF;
+ }
+ #index p{
+	 color:#fff;
+	 font-size:20px;
+	 font-weight:bolder;
+	 text-align:center;
+	 line-height:300%;
+ }
+ hr{
+ width:70%;
+ height:3px;
+ margin:0 auto;
+ }
+ #zi{
+	 color:#fff;
+	 text-align:center;
+	 margin-top:50px;
+	 font-size:18px;
+ }
+ 
+ #wo{
+	 margin-top:100px;	
+	 display:none;
+	 color:#666;
+	 font-weight:bolder;
+ }
+ #tu li{
+	 float:left;
+	 list-style-type:none; 
+	 width:200px;
+	 text-align:center;
+	 line-height:50px;
+	 
+ }
+ #tu img{
+width:60px;
+height:60px;
+display:block;
+margin:0 auto;
+-webkit-transition: transform 2s;	
+ }
+ #tu{
+	 width:800px;
+ margin:0 auto;}
+ #tu img:hover{
+	transform: rotate(360deg) ;
+	-ms-transform: rotate(360deg);	
+ }
+ #wo p{
+ width:300px;
+	 float:left;
+	 margin:100px 400px;
+	 line-height:180%;
+ }
+ #wo h1{
+	 text-align:center;
+	 margin-bottom:60px;
+ }
+ #ji{
+	overflow:hidden;
+	margin-top:100px;
+	 display:none;
+ }
+ #nen {	 
+	 width:800px;
+	 text-align:justify;
+	 text-align-last:justify;
+	 margin:0 auto;
+	 
+ }
+ #nen img{
+	 animation: rotate 5s infinite;
+	 -webkit-animation: rotate 5s infinite;
+ }
+@-webkit-keyframes rotate{
+	from {transform:rotateY(0deg);}
+	to{transform:rotateY(360deg);}	
+}
+ #ji h1{
+	 text-align:center;
+	 margin-bottom:50px;
+	 color:
+ }
+ #lian{
+	 width:500px;
+	 margin:80px auto;
+ display:none;
+ }
+ #lian h1{
+	 text-align:center;
+ color:#adff2f;
+ }
+  #lian li{
+	height:100px;
+	list-style-type:none;
+	margin-left:20px;
+	font-size:25px;
+	line-height:100px;
+	margin-top:40px;
+  }
+  #lian img{ 
+margin-right:40px;
+  width:100px;
+  height:100px;
+  border-radius:20px;
+vertical-align:middle;
+
+  }
+   #lian img:hover{
+	   box-shadow:0 0 15px #00ffff;
+	   cursor:pointer;
+   }
+  
+  #lian span{
+	display:inline-block;
+	width:0px;
+	display:none;
+  }
